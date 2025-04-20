@@ -1,0 +1,74 @@
+# ============================================================
+# Author  :    Talha bin azmat - the honored one
+# 
+# Role    :    Hardware Design Engineer
+# 
+# Email   :    talhabinazmat@gmail.com
+# 
+# Contact :    +923325306662
+# ============================================================
+
+_default_io_ring1.bottom
+{{order_only}
+gpio_pad_gen[12].u_gpio_pad
+gpio_pad_gen[13].u_gpio_pad
+gpio_pad_gen[14].u_gpio_pad
+vdd_bottom
+vss_bottom
+gpio_pad_gen[15].u_gpio_pad
+gpio_pad_gen[16].u_gpio_pad
+iovdd_bottom
+iovss_bottom
+gpio_pad_gen[17].u_gpio_pad
+gpio_pad_gen[18].u_gpio_pad
+gpio_pad_gen[19].u_gpio_pad
+}
+;
+_default_io_ring1.left
+{{order_only}
+u_clk_pad
+u_reset_pad
+u_uart_rx_pad
+vdd_left
+vss_left
+u_uart_tx_pad
+u_tck_pad
+iovdd_left
+iovss_left
+u_tms_pad
+u_tdi_pad
+u_tdo_pad
+}
+;
+_default_io_ring1.right
+{{order_only}
+gpio_pad_gen[4].u_gpio_pad
+gpio_pad_gen[5].u_gpio_pad
+gpio_pad_gen[6].u_gpio_pad
+vdd_right
+vss_right
+gpio_pad_gen[7].u_gpio_pad
+gpio_pad_gen[8].u_gpio_pad
+iovdd_right
+iovss_right
+gpio_pad_gen[9].u_gpio_pad
+gpio_pad_gen[10].u_gpio_pad
+gpio_pad_gen[11].u_gpio_pad
+}
+;
+_default_io_ring1.top
+{{order_only}
+gpio_pad_gen[0].u_gpio_pad
+gpio_pad_gen[1].u_gpio_pad
+gpio_pad_gen[2].u_gpio_pad
+vss_top
+vdd_top
+gpio_pad_gen[3].u_gpio_pad
+gpio_pad_gen[20].u_gpio_pad
+iovdd_top
+iovss_top
+gpio_pad_gen[21].u_gpio_pad
+gpio_pad_gen[22].u_gpio_pad
+gpio_pad_gen[23].u_gpio_pad
+}
+;
