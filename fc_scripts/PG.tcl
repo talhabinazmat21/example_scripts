@@ -118,6 +118,7 @@ set_attribute -objects [get_cells $ROM_INST] -name outer_keepout_margin_hard -va
 
 
 create_pg_std_cell_conn_pattern PG_RAIL_CORE_METAL1_PTRN \
+    -rail_width 0.3 \
     -layers METAL1
 
 set_pg_strategy PG_RAIL_CORE_METAL1_STR -pattern {{name: PG_RAIL_CORE_METAL1_PTRN}{nets: VDD VSS}} -core -blockage {{macros_with_keepout: $ROM_INST}} -extension {{stop: outermost_ring}}
